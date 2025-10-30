@@ -23,32 +23,38 @@ wheels/
 .installed.cfg
 *.egg
 
-# Секретные данные
-.env
-*.env
-config_local.py
-start_bot_with_token.py
-
-# База данных
-*.db
-*.sqlite
-*.sqlite3
-
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database (используем для примеров)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
 
 # OS
-.DS_Store
 Thumbs.db
+.DS_Store
 
-# Логи
-*.log
+# Node (на случай если добавим фронтенд)
+node_modules/
+package-lock.json
+yarn.lock
 
-# Временные файлы
-*.tmp
-*.bak
-*.swp
+# Git scripts (для локальной разработки)
+git_push*.bat
+git_push*.py
+push_to_github.py
