@@ -150,3 +150,5 @@ def get_statistics():
 # Инициализируем БД при импорте модуля
 init_database()
 
+
+
