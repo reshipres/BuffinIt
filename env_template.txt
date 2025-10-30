@@ -1,0 +1,11 @@
+# Копируй этот файл в .env и заполни значения
+
+# Токен бота (получить у @BotFather)
+BOT_TOKEN=123456789:ABCdefGHIjklmNOpqrSTUvwxyzABCDEfgh
+
+# ID менеджера (ID чата в Telegram, куда отправлять уведомления)
+# Узнать свой ID: запустить @userinfobot и отправить /start
+MANAGER_ID=123456789
+
+# Username менеджера для отправки пользователю (опционально)
+MANAGER_USERNAME=BuffinItMNG
